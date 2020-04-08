@@ -11,7 +11,11 @@
 // Sets default values
 APlayerCharacter::APlayerCharacter()
 {
+<<<<<<< Updated upstream
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+=======
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+>>>>>>> Stashed changes
 	PrimaryActorTick.bCanEverTick = false;
 
 	SpringArmComp = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArmComp"));
@@ -31,7 +35,11 @@ APlayerCharacter::APlayerCharacter()
 void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+<<<<<<< Updated upstream
 	
+=======
+
+>>>>>>> Stashed changes
 }
 
 void APlayerCharacter::MoveUp(float Value)
