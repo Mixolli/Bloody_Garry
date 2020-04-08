@@ -18,7 +18,6 @@ class BLOODY_GARRY_V0_API APlayerCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	APlayerCharacter();
-<<<<<<< Updated upstream
 	
 	UPROPERTY(VisibleAnywere, BlueprintReadOnly, Category = "Camera")
 	USpringArmComponent* SpringArmComp;
@@ -28,17 +27,6 @@ public:
 
 	UPROPERTY(VisibleAnywere, BlueprintReadOnly, Category = "Player")
 	UStaticMeshComponent* MeshComp;
-=======
-
-	UPROPERTY(VisibleAnywere, BlueprintReadOnly, Category = "Camera")
-		USpringArmComponent* SpringArmComp;
-
-	UPROPERTY(VisibleAnywere, BlueprintReadOnly, Category = "Camera")
-		UCameraComponent* CameraComp;
-
-	UPROPERTY(VisibleAnywere, BlueprintReadOnly, Category = "Player")
-		UStaticMeshComponent* MeshComp;
->>>>>>> Stashed changes
 
 
 
@@ -50,11 +38,8 @@ protected:
 	void MoveRight(float Value);
 
 
-<<<<<<< Updated upstream
-public:	
-=======
+
 public:
->>>>>>> Stashed changes
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
