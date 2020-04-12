@@ -19,13 +19,13 @@ public:
 	// Sets default values for this character's properties
 	APlayerCharacter();
 	
-	UPROPERTY(VisibleAnywere, BlueprintReadOnly, Category = "Camera")
+	UPROPERTY(EditAnywere, BlueprintReadOnly, Category = "Camera")
 	USpringArmComponent* SpringArmComp;
 
-	UPROPERTY(VisibleAnywere, BlueprintReadOnly, Category = "Camera")
+	UPROPERTY(EditAnywere, BlueprintReadOnly, Category = "Camera")
 	UCameraComponent* CameraComp;
 
-	UPROPERTY(VisibleAnywere, BlueprintReadOnly, Category = "Player")
+	UPROPERTY(EditAnywere, BlueprintReadOnly, Category = "Player")
 	UStaticMeshComponent* MeshComp;
 
 
